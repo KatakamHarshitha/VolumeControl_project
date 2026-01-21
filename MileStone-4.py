@@ -3,7 +3,7 @@ import mediapipe as mp
 import pyautogui
 from math import hypot
 import numpy as np
-import time
+
 
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(min_detection_confidence=0.6,
